@@ -1,0 +1,140 @@
+﻿@model SGPI.Models.Usuario
+
+@{
+    ViewData["Title"] = "EditarUsuario";
+    Layout = "_LayoutADMINISTRADOR";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4">Editar usuario.</h1>
+        </div>
+        <div class="col">
+            <br />
+            <a href="/Administrador/Login"><h4 class="text-right">Cerrar sesión.</h4></a>
+        </div>
+    </div>
+</div>
+
+
+<form method="post">
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+        background-image: url('');
+        height: 100px;
+  "></div>
+
+    <center><div class="container card mx-4 mx-md-5 shadow-5-strong" style="
+        position: relative;
+        bottom: 25px;
+        background:#343A40;
+        backdrop-filter: blur(30px);
+        ">
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="selectdocumento">Seleccione su tipo de documento:</label> <br />
+                        @Html.DropDownList("IdDoc", new SelectList(ViewBag.documento, "IdDoc", "TipoDocumento"), new{@class="form-control dropdown"})
+                    </div>
+                    <br />
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="documentotxt">Número de documento</label> <br />
+                        <input asp-for="NumeroDocumento" type="text" id="documentotxt" class="form-control" required/>
+                    </div>
+                    <br />
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="selectsexo">Seleccione su sexo:</label> <br />
+                        @Html.DropDownList("IdGenero", new SelectList(ViewBag.genero, "IdGenero", "Genero1"), new{@class="form-control dropdown"})
+                    </div>
+                    <br />
+                </div>
+            </div>
+     
+
+             <div class="row">
+                <div class="col-md-4 mb-4">
+                        <div class="form-outline">
+                            <label class="form-label text-white" for="primernombretxt">Primer Nombre:</label> <br />
+                            <input asp-for="PrimerNombre" type="text" id="primernombretxt" class="form-control" />
+                        </div>
+                        <br />
+                </div>
+
+                <div class="col-md-4 mb-4">
+                        <div class="form-outline">
+                            <label class="form-label text-white" for="segundonombretxt">Segundo Nombre:</label> <br />
+                            <input asp-for="SegundoNombre" type="text" id="segundonombretxt" class="form-control" />
+                        </div>
+                        <br />
+                </div>
+
+                <div class="col-md-4 mb-4">
+                        <div class="form-outline">
+                            <label class="form-label text-white" for="primerapellidotxt">Primer Apellido:</label> <br />
+                            <input asp-for="PrimerApellido" type="text" id="primerapellidotxt" class="form-control" />
+                        </div>
+                        <br />
+                    </div>
+            </div>
+       
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="segundoapellidotxt">Segundo Apellido:</label> <br />
+                        <input asp-for="SegundoApellido" type="text" id="segundoapellidotxt" class="form-control" />
+                    </div>
+                    <br />
+                </div>  
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="emailtxt">Correo electrónico:</label> <br />
+                        <input asp-for="Email" type="email" id="emailtxt" class="form-control" />
+                    </div>
+                    <br />
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="selectrol">Seleccione su rol:</label> <br />
+                        @Html.DropDownList("IdRol", new SelectList(ViewBag.rol, "IdRol", "Rol1"), new{@class="form-control dropdown"})
+                    </div>
+                    <br />
+                </div>                     
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="selectprograma">Seleccione su programa:</label> <br />
+                        @Html.DropDownList("IdPrograma", new SelectList(ViewBag.programa, "IdPrograma", "Programa1"), new{@class="form-control dropdown"})
+                    </div>
+                    <br />
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="emailtxt">Contraseña:</label> <br />
+                        <input asp-for="Password" type="password" id="password" class="form-control" />
+                    </div>
+                    <br />
+                </div>          
+            </div>
+      
+
+    </div> <br /></center>
+
+    <button class="btn btn-lg px-5 text-white" type="submit" style="background-color:#343A40">Editar usuario</button>
+
+    </section>
+    </form>

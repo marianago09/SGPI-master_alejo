@@ -1,0 +1,116 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SGPI
+build_property.RootNamespace = SGPI
+build_property.ProjectDir = E:\sgpi alejo\SGPI-master\SGPI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\sgpi alejo\SGPI-master\SGPI
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/BuscarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxCdXNjYXJVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/CrearUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxDcmVhclVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/EditarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxFZGl0YXJVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/EliminarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxFbGltaW5hclVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/OlvidarContrasena.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxPbHZpZGFyQ29udHJhc2VuYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Administrador/Reporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxSZXBvcnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Coordinador/BuscarCoordinador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcQnVzY2FyQ29vcmRpbmFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Coordinador/Entrevistas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcRW50cmV2aXN0YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Coordinador/Homologacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcSG9tb2xvZ2FjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Coordinador/ProgramarAsignatura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcUHJvZ3JhbWFyQXNpZ25hdHVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Coordinador/ReporteCoordinador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcUmVwb3J0ZUNvb3JkaW5hZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Estudiante/Actualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxBY3R1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Estudiante/Pagos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxQYWdvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/_LayoutADMINISTRADOR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBRE1JTklTVFJBRE9SLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/_LayoutCOORDINADOR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDT09SRElOQURPUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/_LayoutESTUDIANTE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFU1RVRElBTlRFLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/_LayoutSGPI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTR1BJLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sgpi alejo/SGPI-master/SGPI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-le1f6uwp6r

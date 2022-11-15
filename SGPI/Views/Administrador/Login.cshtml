@@ -1,0 +1,49 @@
+﻿@model SGPI.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+@if (ViewBag.mensaje != null)
+{
+    <h1>@ViewBag.mensaje0</h1>
+
+}
+
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h2 class="fw-bold mb-4 text-uppercase">Sistema de gestión de posgrados</h2>
+
+              <form method="post">
+
+                  <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="usuariotxt">Usuario</label>
+                    <input asp-for="NumeroDocumento" type="text" id="usuariotxt" class="form-control form-control-lg" required/>
+                  </div>
+
+                  <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="passwordtxt">Contraseña</label>
+                    <input asp-for="Password" type="password" id="passwordtxt" class="form-control form-control-lg" required/>
+                  </div>
+
+                  <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="/Administrador/OlvidarContrasena">Olvidaste la contraseña?</a></p>
+
+              <button class="btn btn-outline-light btn-lg px-5" type="submit" id="ingresarbtn">Ingresar</button>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+

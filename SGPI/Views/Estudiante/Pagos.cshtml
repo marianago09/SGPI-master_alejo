@@ -1,0 +1,84 @@
+﻿@model SGPI.Models.Pago
+
+@{
+    ViewData["Title"] = "Pagos";
+    Layout = "_LayoutESTUDIANTE";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4">Pagos.</h1>
+        </div>
+        <div class="col">
+            <br />
+            <a href="/Administrador/Login"><h4 class="text-right">Cerrar sesión.</h4></a>
+        </div>
+    </div>
+</div>
+
+<form method="post">
+<section class="text-center">
+        <!-- Background image -->
+        <div class="p-5 bg-image" style="
+            background-image: url('');
+            height: 100px;
+      "></div>
+
+       <center><div class="container card mx-4 mx-md-5 shadow-5-strong" style="
+            position: relative;
+            bottom: 25px;
+            background:#343A40;
+            backdrop-filter: blur(30px);
+            ">
+
+        
+        <div class="container">
+
+        <table class="table table-bordered table-striped" style="background-color: white">
+            <thead>
+                <tr>
+                    <th>Nº</th>
+                    <th>Valor de pago</th>
+                    <th>Fecha de Pago</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="col-md-8 mb-4">
+                            <input type="text" id="form3Example2" class="form-control" />
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="col-md-8 mb-4">
+                            <input asp-for="ValorPago" type="text" id="form3Example2" class="form-control" />
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="col-md-8 mb-4">
+                            <input asp-for="Fecha" type="date">
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="form-group">
+                            <input type="file" id="ejemplo_archivo_1"/>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <button type="submit" class="btn btn-dark">Pagar</button>
+    </form>

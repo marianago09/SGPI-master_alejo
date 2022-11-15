@@ -1,0 +1,101 @@
+﻿@model SGPI.Models.Usuario
+
+@{
+    ViewData["Title"] = "BuscarCoordinador";
+    Layout = "_LayoutCOORDINADOR";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4">Buscar Coordinador.</h1>
+        </div>
+        <div class="col">
+            <br />
+            <a href="/Administrador/Login"><h4 class="text-right">Cerrar sesión.</h4></a>
+        </div>
+    </div>
+</div>
+
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+        background-image: url('');
+        height: 100px;
+  "></div>
+
+    <center><div class="container card mx-4 mx-md-5 shadow-5-strong" style="
+        position: relative;
+        bottom: 25px;
+        background:#343A40;
+        backdrop-filter: blur(30px);
+        ">
+        <form>
+
+
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <br />
+                        </select>
+                    </div>
+                    <br />
+                </div>
+
+
+
+                <!-- INICIO DE LOS CAMPOS -->
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline text-white">
+                        <label class="form-label" for="buscarcoordinadortxt">Buscar coordinador:</label> <br />
+                        <input asp-for="NumeroDocumento" type="text" id="buscarcoordinadortxt" required />
+                    </div>
+                    <br />
+                </div>
+                <!-- ACABAN LOS CAMPOS -->
+
+
+
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <br />
+                        </select>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </form>
+
+        <center>
+            <table class="table table-bordered table-striped" style="background-color: white">
+                <br />
+                <tr>
+                    <td>Nombre</td>
+                    <td>Primer Apellido</td>
+                    <td>Segundo Apellido</td>
+                    <td>Género</td>
+                    <td>Programa</td>
+                    <td>Rol</td>
+                    <td>Correo</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </center>
+
+    </div> <br /></center>
+
+    <button class="btn btn-lg px-5 text-white" type="submit" style="background-color:#343A40">Buscar coordinador</button>
+
+</section>

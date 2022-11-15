@@ -1,0 +1,102 @@
+﻿@model SGPI.Models.Usuario
+
+@{
+    ViewData["Title"] = "ProgramarAsignatura";
+    Layout = "_LayoutCOORDINADOR";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4">Programar asignatura.</h1>
+        </div>
+        <div class="col">
+            <br />
+            <a href="/Administrador/Login"><h4 class="text-right">Cerrar sesión.</h4></a>
+        </div>
+    </div>
+</div>
+
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+        background-image: url('');
+        height: 100px;
+  "></div>
+
+    <center><div class="container card mx-4 mx-md-5 shadow-5-strong" style="
+        position: relative;
+        bottom: 25px;
+        background:#343A40;
+        backdrop-filter: blur(30px);
+        ">
+        <form>
+
+
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="form-label text-white" for="buscarperiodotxt">Periodo académico:</label> <br />
+                       
+                    </div>
+                    <br />
+                </div>
+
+
+
+                <!-- INICIO DE LOS CAMPOS -->
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <br />
+                    </div>
+                    <br />
+                </div>
+                <!-- ACABAN LOS CAMPOS -->
+
+
+
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="form-outline">
+                        <label class="text-white" for="selectprograma">Seleccione su programa:</label> <br />
+                        @Html.DropDownList("IdDoc", new SelectList(ViewBag.documento, "IdDoc", "TipoDocumento"), new{@class="form-control dropdown"})
+                            <select id="selectprograma" class="custom-select">
+                                <option value="gestion">Maestría en gestión</option>
+                                <option value="seguridad">Especialización en seguridad de la información.</option>
+                                <option value="ambiente">Maestria en medio ambiente.</option>
+                            </select>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </form>
+
+        <center>
+            <table class="table table-bordered table-striped" style="background-color: white">
+                <br />
+                <tr>
+                    <td>Fecha</td>
+                    <td>Sala</td>
+                    <td>Asignatura</td>
+                    <td>Codigo de asignatura</td>
+                    <td>Opción</td>
+                </tr>
+
+                <tr>
+                    <td><input type="date"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </center>
+
+
+    </div> <br /></center>
+
+    <button class="btn btn-lg px-5 text-white" type="submit" style="background-color:#343A40">Programar asignatura</button>
+
+</section>
